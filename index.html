@@ -1,29 +1,33 @@
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>/JUEGO CRAPS/</title>
-	<link rel="stylesheet" href="estilos.css">
-	
+	<title>JUEGO CRAPS</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js
+"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
 
-		<div class="caja1">
-  <div class="juego">🍀JUEGO CRAPS🍀</div>
+	<div id="ventana" class="ligthbox hidden">
+		<div class="login_content">
+		    <div id="cerrar" class="close_button">x</div>
+		    <p id="mensaje_texto">Mensaje</p>
+		</div>
+	</div>
 
-</div>	
-
-	<div id="contenedor_dados" class="sdo_fondo">
+	<h2 id="titulo">🍀JUEGO CRAPS🍀</h2>	
+	<div id="contenedor_dados">
 		<div id="dado1" class="dado"></div>
 		<div id="dado2" class="dado"></div>
 	</div>
-
-	<input type="button" value="Tirar" id="boton_tirar">
-
-	<div class="footer">
-		<a href="./JUEGO CRAPS/CRAPS1/creditos.html"> Ir a Créditos 🙋‍♂️</a>
+	<div class="pata">
+	<input type="button" value="Tirar" id="boton_tirar">	
+	<a href="creditos.html"> Ir a Créditos </a>
 	</div>
 
 	<div class="fin">
